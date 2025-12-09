@@ -79,15 +79,7 @@ git clone https://github.com/Pravesh-Sudha/secret-santa-cognee
 cd secret-santa-cognee
 ```
 
-### 2. Create virtual environment
-
-```bash
-python3 -m venv venv
-source venv/bin/activate   # macOS/Linux
-venv\Scripts\activate      # Windows
-```
-
-### 3. Install dependencies
+### 2. Install dependencies
 
 ```bash
 uv sync
@@ -99,7 +91,7 @@ uv sync
 
 Create a `.env` file based on the template:
 
-### `.env.template`
+### `.env.example`
 
 ```
 LLM_API_KEY=<YOUR_GEMINI_API_KEY>
@@ -109,7 +101,7 @@ EMBEDDING_API_KEY=<YOUR_GEMINI_API_KEY>
 Copy & rename it:
 
 ```bash
-cp .env.template .env
+cp .env.example .env
 ```
 
 Fill in your **Gemini API key**.
