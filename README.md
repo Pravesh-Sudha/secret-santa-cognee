@@ -136,6 +136,7 @@ Charlie ➝ Bob (happy)
 Gift Suggestion: A fun adventure experience coupon.
 ```
 
+![result](result.png)
 ---
 
 ## 🗂 Project Structure
@@ -145,7 +146,7 @@ Gift Suggestion: A fun adventure experience coupon.
  ┣ main.py
  ┣ matcher.py          # Santa matching + emotion detection
  ┣ gift_engine.py      # Rule-based gift generator (no LLM cost)
- ┣ .env.template
+ ┣ .env.example
  ┣ requirements.txt
  ┗ README.md
 ```
@@ -187,34 +188,6 @@ This emotion is *then* used to generate the gift.
 ### ✔ Optional “Chaos Mode” (Michael Scott Rule)
 
 One friend can break rules and send a ridiculous gift (toggle in code).
-
----
-
-## 🏆 Why This Project is a Strong Challenge Submission
-
-* ✔ Creative mechanic: **Emotion-Based Santa**
-* ✔ Cognee used in a deep meaningful way
-* ✔ Uses free-tier only
-* ✔ Portable (single main.py possible)
-* ✔ Fun + Demonstrative + Clear
-* ✔ Avoids unnecessary API calls
-* ✔ Judges can run it instantly
-
----
-
-## 📹 Demo (optional)
-
-Upload a screen recording and link it here.
-
----
-
-## 📧 Submission Info
-
-Send your repo link (and demo if any) to:
-
-```
-social@cognee.ai
-```
 
 ---
 
